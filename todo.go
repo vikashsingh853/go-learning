@@ -66,7 +66,7 @@ func main() {
 
 		case 4:
 			var id int
-			fmt.Print("Enter task ID to delete: ")
+			fmt.Print("Enter task ID to delete s: ")
 			fmt.Scanln(&id)
 
 			for i:=range tasks{
